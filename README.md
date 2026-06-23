@@ -9,7 +9,7 @@ A modelagem foi desenhada focada na qualidade da informação na origem, o que �
 * **Validação de Ciclo de Vida:** O campo `Status_OS` na entidade Ordem de Serviço possui restrições (*Check Constraints*) para garantir que a manutenção obedeça ao fluxo lógico ('ORCAMENTO', 'APROVADA', 'CONCLUIDA', etc).
 * **Congelamento Histórico:** A arquitetura utiliza tabelas associativas (`OS_Peca` e `OS_Servico`) que registram o valor no exato momento da transação. Isso impede que atualizações no catálogo de preços alterem o histórico financeiro da operação passada.
 
-## Artefatos do Repositório
+## Arquivos do Repositório
 * [Diagrama ER Oficina](/Oficina.png): Imagem gerada através do que foi realizado no DBDesigner com as relações entre as entidades.
 <img width="1887" height="1585" alt="image" src="https://github.com/user-attachments/assets/474741a6-8e0e-4ef6-abdd-207994830640" />
 

@@ -1,4 +1,4 @@
-# Arquitetura de Dados - Sistema de Oficina Mecânica
+# Sistema de Oficina Mecânica
 
 ## Sobre o Projeto
 Este repositório documenta a engenharia reversa e o desenho estrutural de uma base de dados relacional (OLTP) dedicada ao fluxo de trabalho de uma oficina mecânica. O diagrama reflete o ecossistema completo de gestão de clientes, veículos, atribuição de equipes técnicas e execução de ordens de serviço (OS).
